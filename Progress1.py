@@ -1,4 +1,4 @@
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
-Sc = SparkContext()
+sc = SparkContext()
 sqlContext = SQLContext(sc)
